@@ -3,11 +3,13 @@
     <header>
       <h3>Text to morse</h3>
     </header>
-    <div class="columns">
+
+    <div>
       <label for="input">Your text</label>
       <textarea name="input" v-model="text"></textarea>
     </div>
-    <div class="columns">
+
+    <div>
       <label for="output">Morse Output</label>
       <small>
         Characters are seperated by
@@ -17,6 +19,7 @@
       </small>
       <textarea name="output" v-bind:value="morse" readonly></textarea>
     </div>
+
   </section>
 </template>
 

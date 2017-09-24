@@ -3,10 +3,12 @@
     <header>
       <h3>Morse code cheatsheet</h3>
     </header>
+
     <label>
       Text input
       <input type="text" v-model="search">
     </label>
+
     <label>
       Filter by category
       <select v-model="category">
@@ -14,27 +16,27 @@
         <option v-for="category in categories" v-bind:value='category'>{{ category }}</option>
       </select>
     </label>
-    <div class="wrapper">
-      <table>
-        <thead>
-          <tr>
-            <th>Category</th>
-            <th>Character</th>
-            <th>Morse Code</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="item in morseCode">
-            <td>{{ item.category }}</td>
-            <td>
-              {{ item.character }}
-              <small v-if="item.description"> {{ item.description }}</small>
-            </td>
-            <td>{{ item.code }}</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Character</th>
+          <th>Morse Code</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="item in morseCode">
+          <td>{{ item.category }}</td>
+          <td>
+            {{ item.character }}
+            <small v-if="item.description"> {{ item.description }}</small>
+          </td>
+          <td>{{ item.code }}</td>
+        </tr>
+      </tbody>
+    </table>
+
   </section>
 </template>
 
