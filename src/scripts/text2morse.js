@@ -36,11 +36,12 @@ function text2morse(input, charSpacer = ' ', wordSpacer = '/', unkown = '#') {
 
     // If code for token exists
     if (code) {
-      signal += `${code.code} `;
+      // If not followed by whitespace, add a whitespace
+      signal += tokens[i + 1] !== ' ' ? `${code.code} ` : code.code;
 
       // Else if token is whitespace
     } else if (token === ' ') {
-      signal += `${wordSpacer} `;
+      signal += wordSpacer;
 
       // Else print unkown
     } else {
@@ -50,7 +51,7 @@ function text2morse(input, charSpacer = ' ', wordSpacer = '/', unkown = '#') {
     i += 1;
   }
 
-  return signal;
+  return signal.trim().replace(/\s\/\s/g, '/');
 }
 
 export default text2morse;

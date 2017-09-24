@@ -6,16 +6,16 @@
 
     <div>
       <label for="input">Your text</label>
-      <textarea name="input" v-model="text"></textarea>
+      <textarea name="input" v-model="shared.text"></textarea>
     </div>
 
     <div>
       <label for="output">Morse Output</label>
       <small>
         Characters are seperated by
-        <input type="text" v-model="charSeperator"> and words by
-        <input type="text" v-model="wordSeperator">. Unknown characters are replaced with
-        <input type="text" v-model="unknownChar">
+        <input type="text" v-model="shared.charSpacer"> and words by
+        <input type="text" v-model="shared.wordSpacer">. Unknown characters are replaced with
+        <input type="text" v-model="shared.unknownChar">
       </small>
       <textarea name="output" v-bind:value="morse" readonly></textarea>
     </div>
@@ -25,26 +25,24 @@
 
 <script>
 import text2morse from './../scripts/text2morse';
+import store from './../scripts/store';
 
 export default {
   name: 'morsetranslator',
   data() {
     return {
-      text: '',
-      morsetext: '',
-      charSeperator: ' ',
-      wordSeperator: '/',
-      unknownChar: '#',
+      shared: store.state,
     };
   },
   computed: {
     morse() {
-      return text2morse(
-        this.text,
-        this.charSeperator,
-        this.wordSeperator,
-        this.unknownChar,
+      this.shared.morse = text2morse(
+        this.shared.text,
+        this.shared.charSpacer,
+        this.shared.wordSpacer,
+        this.shared.unknownChar,
       );
+      return this.shared.morse;
     },
   },
 };
