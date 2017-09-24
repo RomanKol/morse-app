@@ -17,25 +17,27 @@
       </select>
     </label>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Category</th>
-          <th>Character</th>
-          <th>Morse Code</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="item in morseCode">
-          <td>{{ item.category }}</td>
-          <td>
-            {{ item.character }}
-            <small v-if="item.description"> {{ item.description }}</small>
-          </td>
-          <td>{{ item.code }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Character</th>
+            <th>Morse Code</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="item in morseCode">
+            <td>{{ item.category }}</td>
+            <td>
+              {{ item.character }}
+              <small v-if="item.description"> {{ item.description }}</small>
+            </td>
+            <td>{{ item.code }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
   </section>
 </template>
