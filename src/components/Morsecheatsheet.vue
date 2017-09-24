@@ -4,18 +4,20 @@
       <h3>Morse code cheatsheet</h3>
     </header>
 
-    <label>
-      Text input
-      <input type="text" v-model="search">
-    </label>
+    <div class="filters">
+      <div class="input-form">
+        <label for="search">Text search:</label>
+        <input type="text" name="search" v-model="search">
+      </div>
 
-    <label>
-      Filter by category
-      <select v-model="category">
-        <option value="">All</option>
-        <option v-for="category in categories" v-bind:value='category'>{{ category }}</option>
-      </select>
-    </label>
+      <div class="input-form">
+        <label for="category">Category filter:</label>
+        <select name="category" v-model="category">
+          <option value="">All</option>
+          <option v-for="category in categories" v-bind:value='category'>{{ category }}</option>
+        </select>
+      </div>
+    </div>
 
     <div class="wrapper">
       <table>
@@ -83,15 +85,22 @@ export default {
   display: flex;
   flex-direction: column;
 
-  label {
-    flex: 1 1;
-    align-self: flex-start;
-    margin-bottom: 1em;
+  .filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -0.5em -0.5em 1em -0.5em;
+    >div {
+      flex: 1 1;
+      background-color: #eee;
+      padding: 1em;
+      margin: 0.5em;
+    }
   }
 
-  input,
   select {
-    padding: 0.2em;
+    padding: 0.5em 1em;
+    border: 1px solid #ddd
   }
 
   .wrapper {
@@ -100,16 +109,19 @@ export default {
     overflow-x: hidden;
     overflow-y: scroll;
   }
+
   table {
     list-style-type: none;
     width: 100%;
     border-collapse: collapse;
+
     th,
     td {
-      padding: 0.25rem;
+      padding: 0.5em;
       text-align: left;
       border: 1px solid #ccc;
     }
+
     tbody {
       tr:nth-child(odd) {
         background: #eee;

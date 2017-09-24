@@ -4,32 +4,47 @@
       <h3>Morse audio player</h3>
     </header>
 
-    <label>
-      Waveform
-      <select name="type" v-model="waveform" @change="updateWaveform()">
-        <option value="sine">Sine</option>
-        <option value="square">Square</option>
-        <option value="sawtooth">Sawtooth</option>
-        <option value="triangle">Triangle</option>
-      </select>
-    </label>
+    <div class="options">
+      <div>
+        <label for="waveform">Waveform:</label>
+        <select name="waveform" v-model="waveform" @change="updateWaveform()">
+          <option value="sine">Sine</option>
+          <option value="square">Square</option>
+          <option value="sawtooth">Sawtooth</option>
+          <option value="triangle">Triangle</option>
+        </select>
+      </div>
 
-    <label>
-      Wave frequency
-      <input type="number" step="10" class="text-right" v-model="frequency" @change="updateFrequency()"> hz
-    </label>
+      <div class="input-form">
+        <label for="frequency">Signal wave frequency:</label>
+        <div>
+          <input type="number" step="10" name="frequency" class="text-right" v-model="frequency" @change="updateFrequency()">
+          <span>hz</span>
+        </div>
+        <small>The wave frequency of the morse signal in herz</small>
+      </div>
 
-    <label>
-      Dot duration
-      <input type="number" step="10" class="text-right" v-model="dotduration" @change="updateDotDuration()"> ms
-    </label>
+      <div class="input-form">
+        <label for="dotduration">Dot duration:</label>
+        <div>
+          <input type="number" step="10" name="dotduration" class="text-right" v-model="dotduration" @change="updateDotDuration()">
+          <span>ms</span>
+        </div>
+        <small>The duration of a single dot/dit sound in milliseconds</small>
+      </div>
+
+      <div class="input-form">
+        <label for="duration">Signal duration:</label>
+        <div>
+          <input type="number" name="duration" class="text-right" readonly v-bind:value="duration">
+          <span>ms</span>
+        </div>
+        <small>The duration the complete signal in milliseconds</small>
+      </div>
+
+    </div>
 
     <button @click="play">Play morse signal</button>
-
-    <label for="">
-      Signal duration
-      <input type="number" class="text-right" readonly v-bind:value="duration"> ms
-    </label>
 
   </section>
 </template>
@@ -83,6 +98,42 @@ export default {
 
 <style lang='scss'>
 #audioplayer {
+
+  .options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -0.5em;
+    >div {
+      flex: 1 1;
+      background-color: #eee;
+      padding: 1em;
+      margin: 0.5em;
+    }
+  }
+
+  select {
+    padding: 0.5em 1em;
+    width: 100%;
+  }
+
+  small {
+    color: #666;
+  }
+
+  button {
+    border: none;
+    background-color: #ccc;
+    padding: 1em 2em;
+    margin: 1em 0;
+    align-self: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 333ms ease-in-out;
+    &:hover {
+      background-color: #bbb;
+    }
+  }
 
   .text-right {
     text-align: right;

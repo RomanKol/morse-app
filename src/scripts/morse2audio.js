@@ -139,7 +139,6 @@ class morse2audio {
 
   getDuration(signal) {
     const tasks = this.signal2tasks(signal);
-    console.log(tasks);
     return tasks.reduce((sum, task) => sum + ((task[0] + task[1]) * this.dotduration), 0);
   }
 }

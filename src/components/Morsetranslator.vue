@@ -52,6 +52,10 @@ export default {
 <style scoped lang='scss'>
 #coder {
 
+  label {
+    display: flex;
+  }
+
   small {
     input {
       width: 1.5em;
@@ -62,9 +66,9 @@ export default {
 
   textarea {
     width: 100%;
-    height: 150px;
+    height: 100px;
     resize: none;
-    margin-bottom: 1em;
+    margin: 1em 0 2em;
   }
 
   textarea,
