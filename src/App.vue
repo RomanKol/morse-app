@@ -5,14 +5,19 @@
       <p>App to translate text to morse code</p>
     </header>
     <main>
-      <p>Main element</p>
+      <morsetranslator></morsetranslator>
     </main>
   </div>
 </template>
 
 <script>
+import Morsetranslator from './components/Morsetranslator';
+
 export default {
   name: 'app',
+  components: {
+    Morsetranslator,
+  },
 };
 </script>
 
