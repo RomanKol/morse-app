@@ -6,17 +6,20 @@
     </header>
     <main>
       <morsetranslator></morsetranslator>
+      <morsecheatsheet></morsecheatsheet>
     </main>
   </div>
 </template>
 
 <script>
 import Morsetranslator from './components/Morsetranslator';
+import Morsecheatsheet from './components/Morsecheatsheet';
 
 export default {
   name: 'app',
   components: {
     Morsetranslator,
+    Morsecheatsheet,
   },
 };
 </script>
