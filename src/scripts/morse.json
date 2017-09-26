@@ -1,0 +1,511 @@
+[
+  {
+    "code": "−−−−−",
+    "category": "Numbers",
+    "character": "0"
+  },
+  {
+    "code": "·−−−−",
+    "category": "Numbers",
+    "character": "1"
+  },
+  {
+    "code": "··−−−",
+    "category": "Numbers",
+    "character": "2"
+  },
+  {
+    "code": "···−−",
+    "category": "Numbers",
+    "character": "3"
+  },
+  {
+    "code": "····−",
+    "category": "Numbers",
+    "character": "4"
+  },
+  {
+    "code": "·····",
+    "category": "Numbers",
+    "character": "5"
+  },
+  {
+    "code": "−····",
+    "category": "Numbers",
+    "character": "6"
+  },
+  {
+    "code": "−−···",
+    "category": "Numbers",
+    "character": "7"
+  },
+  {
+    "code": "−−−··",
+    "category": "Numbers",
+    "character": "8"
+  },
+  {
+    "code": "−−−−·",
+    "category": "Numbers",
+    "character": "9"
+  },
+  {
+    "code": "·−",
+    "category": "Letters",
+    "character": "a"
+  },
+  {
+    "code": "−···",
+    "category": "Letters",
+    "character": "b"
+  },
+  {
+    "code": "−·−·",
+    "category": "Letters",
+    "character": "c"
+  },
+  {
+    "code": "−··",
+    "category": "Letters",
+    "character": "d"
+  },
+  {
+    "code": "·",
+    "category": "Letters",
+    "character": "e"
+  },
+  {
+    "code": "··−·",
+    "category": "Letters",
+    "character": "f"
+  },
+  {
+    "code": "−−·",
+    "category": "Letters",
+    "character": "g"
+  },
+  {
+    "code": "····",
+    "category": "Letters",
+    "character": "h"
+  },
+  {
+    "code": "··",
+    "category": "Letters",
+    "character": "i"
+  },
+  {
+    "code": "·−−−",
+    "category": "Letters",
+    "character": "j"
+  },
+  {
+    "code": "−·−",
+    "category": "Letters",
+    "character": "k"
+  },
+  {
+    "code": "·−··",
+    "category": "Letters",
+    "character": "l"
+  },
+  {
+    "code": "−−",
+    "category": "Letters",
+    "character": "m"
+  },
+  {
+    "code": "−·",
+    "category": "Letters",
+    "character": "n"
+  },
+  {
+    "code": "−−−",
+    "category": "Letters",
+    "character": "o"
+  },
+  {
+    "code": "·−−·",
+    "category": "Letters",
+    "character": "p"
+  },
+  {
+    "code": "−−·−",
+    "category": "Letters",
+    "character": "q"
+  },
+  {
+    "code": "·−·",
+    "category": "Letters",
+    "character": "r"
+  },
+  {
+    "code": "···",
+    "category": "Letters",
+    "character": "s"
+  },
+  {
+    "code": "−",
+    "category": "Letters",
+    "character": "t"
+  },
+  {
+    "code": "··−",
+    "category": "Letters",
+    "character": "u"
+  },
+  {
+    "code": "···−",
+    "category": "Letters",
+    "character": "v"
+  },
+  {
+    "code": "·−−",
+    "category": "Letters",
+    "character": "w"
+  },
+  {
+    "code": "−··−",
+    "category": "Letters",
+    "character": "x"
+  },
+  {
+    "code": "−·−−",
+    "category": "Letters",
+    "character": "y"
+  },
+  {
+    "code": "−−··",
+    "category": "Letters",
+    "character": "z"
+  },
+  {
+    "code": "·−·−·−",
+    "category": "Punctuation",
+    "character": "."
+  },
+  {
+    "code": "−−··−−",
+    "category": "Punctuation",
+    "character": ","
+  },
+  {
+    "code": "··−−··",
+    "category": "Punctuation",
+    "character": "?"
+  },
+  {
+    "code": "·−−−−·",
+    "category": "Punctuation",
+    "character": "'"
+  },
+  {
+    "code": "−·−·−−",
+    "category": "Punctuation",
+    "character": "!"
+  },
+  {
+    "code": "−··−·",
+    "category": "Punctuation",
+    "character": "/"
+  },
+  {
+    "code": "−·−−·",
+    "category": "Punctuation",
+    "character": "("
+  },
+  {
+    "code": "−·−−·−",
+    "category": "Punctuation",
+    "character": ")"
+  },
+  {
+    "code": "·−···",
+    "category": "Punctuation",
+    "character": "&"
+  },
+  {
+    "code": "−−−···",
+    "category": "Punctuation",
+    "character": ":"
+  },
+  {
+    "code": "−·−·−·",
+    "category": "Punctuation",
+    "character": ";"
+  },
+  {
+    "code": "−···−",
+    "category": "Punctuation",
+    "character": "="
+  },
+  {
+    "code": "·−·−·",
+    "category": "Punctuation",
+    "character": "+"
+  },
+  {
+    "code": "−····−",
+    "category": "Punctuation",
+    "character": "-"
+  },
+  {
+    "code": "··−−·−",
+    "category": "Punctuation",
+    "character": "_"
+  },
+  {
+    "code": "·−··−·",
+    "category": "Punctuation",
+    "character": "\""
+  },
+  {
+    "code": "···−··−",
+    "category": "Punctuation",
+    "character": "$"
+  },
+  {
+    "code": "·−−·−·",
+    "category": "Punctuation",
+    "character": "@"
+  },
+  {
+    "code": "·−·−",
+    "category": "Prosign",
+    "description": "New Line (space down one line)",
+    "character": "<aa>"
+  },
+  {
+    "code": "·−·−·",
+    "category": "Prosign",
+    "description": "New Page (space down several lines)",
+    "character": "<ar>"
+  },
+  {
+    "code": "·−···",
+    "category": "Prosign",
+    "description": "Wait",
+    "character": "<as>"
+  },
+  {
+    "code": "−··· −·−",
+    "category": "Prosign",
+    "description": "Break (Morse abbreviation)",
+    "character": "<bk>"
+  },
+  {
+    "code": "−···−",
+    "category": "Prosign",
+    "description": "New Paragraph (space down two lines)",
+    "character": "<bt>"
+  },
+  {
+    "code": "−·−· ·−··",
+    "category": "Prosign",
+    "description": "Closing (Morse abbreviation)",
+    "character": "<cl>"
+  },
+  {
+    "code": "−·−·−",
+    "category": "Prosign",
+    "description": "Attention",
+    "character": "<ct>"
+  },
+  {
+    "code": "········",
+    "category": "Prosign",
+    "description": "Error (Sometimes ???? is used·)",
+    "character": "<hh>"
+  },
+  {
+    "code": "·−·",
+    "category": "Prosign",
+    "description": "Invitation for any station to transmit",
+    "character": "<k>"
+  },
+  {
+    "code": "−·−−·",
+    "category": "Prosign",
+    "description": "Invitation for named station to transmit",
+    "character": "<kn>"
+  },
+  {
+    "code": "−··−−−",
+    "category": "Prosign",
+    "description": "Shift to Wabun code",
+    "character": "<nj>"
+  },
+  {
+    "code": "···−·−",
+    "category": "Prosign",
+    "description": "End of contact",
+    "character": "<sk>"
+  },
+  {
+    "code": "···−·",
+    "category": "Prosign",
+    "description": "Understood",
+    "character": "<sn>"
+  },
+  {
+    "code": "···−−−···",
+    "category": "Prosign",
+    "description": "International distress signal",
+    "character": "<sos>"
+  },
+  {
+    "code": "·−−·−",
+    "category": "Non-English extensions",
+    "character": "à"
+  },
+  {
+    "code": "·−·−",
+    "category": "Non-English extensions",
+    "character": "ä"
+  },
+  {
+    "code": "·−−·−",
+    "category": "Non-English extensions",
+    "character": "å"
+  },
+  {
+    "code": "·−·−",
+    "category": "Non-English extensions",
+    "character": "ą"
+  },
+  {
+    "code": "·−·−",
+    "category": "Non-English extensions",
+    "character": "æ"
+  },
+  {
+    "code": "−·−··",
+    "category": "Non-English extensions",
+    "character": "ć"
+  },
+  {
+    "code": "−·−··",
+    "category": "Non-English extensions",
+    "character": "ĉ"
+  },
+  {
+    "code": "−·−··",
+    "category": "Non-English extensions",
+    "character": "ç"
+  },
+  {
+    "code": "−−−−",
+    "category": "Non-English extensions",
+    "character": "ch"
+  },
+  {
+    "code": "··−··",
+    "category": "Non-English extensions",
+    "character": "đ"
+  },
+  {
+    "code": "··−−·",
+    "category": "Non-English extensions",
+    "character": "ð"
+  },
+  {
+    "code": "··−··",
+    "category": "Non-English extensions",
+    "character": "é"
+  },
+  {
+    "code": "·−··−",
+    "category": "Non-English extensions",
+    "character": "è"
+  },
+  {
+    "code": "··−··",
+    "category": "Non-English extensions",
+    "character": "ę"
+  },
+  {
+    "code": "−−·−·",
+    "category": "Non-English extensions",
+    "character": "ĝ"
+  },
+  {
+    "code": "−−−−",
+    "category": "Non-English extensions",
+    "character": "ĥ"
+  },
+  {
+    "code": "·−−−·",
+    "category": "Non-English extensions",
+    "character": "ĵ"
+  },
+  {
+    "code": "·−··−",
+    "category": "Non-English extensions",
+    "character": "ł"
+  },
+  {
+    "code": "−−·−−",
+    "category": "Non-English extensions",
+    "character": "ń"
+  },
+  {
+    "code": "−−·−−",
+    "category": "Non-English extensions",
+    "character": "ñ"
+  },
+  {
+    "code": "−−−·",
+    "category": "Non-English extensions",
+    "character": "ó"
+  },
+  {
+    "code": "−−−·",
+    "category": "Non-English extensions",
+    "character": "ö"
+  },
+  {
+    "code": "−−−·",
+    "category": "Non-English extensions",
+    "character": "ø"
+  },
+  {
+    "code": "···−···",
+    "category": "Non-English extensions",
+    "character": "ś"
+  },
+  {
+    "code": "···−·",
+    "category": "Non-English extensions",
+    "character": "ŝ"
+  },
+  {
+    "code": "−−−−",
+    "category": "Non-English extensions",
+    "character": "š"
+  },
+  {
+    "code": "·−−··",
+    "category": "Non-English extensions",
+    "character": "þ"
+  },
+  {
+    "code": "··−−",
+    "category": "Non-English extensions",
+    "character": "ü"
+  },
+  {
+    "code": "··−−",
+    "category": "Non-English extensions",
+    "character": "ŭ"
+  },
+  {
+    "code": "−−··−·",
+    "category": "Non-English extensions",
+    "character": "ź"
+  },
+  {
+    "code": "−−··−",
+    "category": "Non-English extensions",
+    "character": "ż"
+  }
+]
